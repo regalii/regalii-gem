@@ -8,7 +8,7 @@ module Regaliator
 
     def test_constructor_expects_a_version
       subject = APIVersionError.new('1.0')
-      assert_match /1\.0/, subject.message
+      assert_match(/1\.0/, subject.message)
     end
   end
 end
