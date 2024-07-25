@@ -22,11 +22,11 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'json'
 
-  spec.add_development_dependency 'bundler',            '~> 2.0'
-  spec.add_development_dependency 'minitest-reporters', '~> 1.1', '>= 1.1.13'
-  spec.add_development_dependency 'minitest',           '~> 5.8', '>= 5.8.4'
-  spec.add_development_dependency 'rake',               '~> 10.0'
-  spec.add_development_dependency 'vcr',                '~> 2.9', '>= 2.9.3'
-  spec.add_development_dependency 'webmock',            '~> 1.19'
+  spec.add_development_dependency 'bundler',            '~> 2.4', '<= 2.4.22'
+  spec.add_development_dependency 'minitest-reporters', '~> 1.7'
+  spec.add_development_dependency 'minitest',           '~> 5.24'
+  spec.add_development_dependency 'rake',               '~> 13.0'
+  spec.add_development_dependency 'vcr',                '~> 6.2'
+  spec.add_development_dependency 'webmock',            '~> 3.23'
   spec.add_development_dependency 'pry'
 end
