@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    regaliator (4.1.1)
+    regaliator (4.2.0)
       json
 
 GEM
@@ -44,7 +44,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bundler (~> 2.4, <= 2.4.22)
+  bundler (~> 2.4)
   minitest (~> 5.24)
   minitest-reporters (~> 1.7)
   pry
@@ -53,8 +53,5 @@ DEPENDENCIES
   vcr (~> 6.2)
   webmock (~> 3.23)
 
-RUBY VERSION
-   ruby 2.7.8p225
-
 BUNDLED WITH
-   2.4.22
+   2.5.16
